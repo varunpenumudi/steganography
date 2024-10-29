@@ -4,7 +4,7 @@ close all;
 
 % EMBEDDING PROCEDURE
 
-cover = imread("project_images/nlsb_images/image8.bmp");
+cover = imread("../project_images/nlsb_images/image8.bmp");
 
 % get channels of image
 Rc = cover(:,:,1);
