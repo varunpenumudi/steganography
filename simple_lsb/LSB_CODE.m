@@ -4,7 +4,7 @@ close all;
 
 % EMBEDDING PROCEDURE
 
-cover = imread("\project_images\nlsb_images\image8.bmp");
+cover = imread("project_images/nlsb_images/image8.bmp");
 
 % get channels of image
 Rc = cover(:,:,1);
@@ -12,7 +12,7 @@ Gc = cover(:,:,2);
 Bc = cover(:,:,3);
 
 % generating the random message and convert to bits
-message = random_message(1);
+message = 'This is a secret Message';
 bits = msg_to_bits(message);
 
 % embedding into channel of your choice
