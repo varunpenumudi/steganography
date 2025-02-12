@@ -13,7 +13,7 @@ Gc = Flip_cover(:,:,2)';
 Bc = Flip_cover(:,:,3)';
 
 % generating the random message and convert to bits
-message = random_message(14);
+message = "This is Secret Message";
 % SM to SMdv
 SMdv = get_difference(Rc, message);
 % SMdv to bits
